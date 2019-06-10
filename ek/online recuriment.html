@@ -1,0 +1,475 @@
+<!DOCTYPE html>
+<html xmlns="htt://www.w3.org/1999/xhtml">
+<head runat="server">
+	<title>untitled page</title>
+<style type="text/css">
+	.style1
+	{
+		width: 100%;
+		height: 149px;
+	}
+	.style2
+	{
+		width: 99%;
+		height: 152px;
+		border-style: solid;
+		border-width: 1px;
+	}
+	.style3
+	{
+		height: 36px;
+	}
+	.style4
+	{
+		width: 339px;
+	}
+	.style5
+	{
+		width: 100%;
+		border-style: solid;
+		border-width: 3px;
+	}
+	.style6
+	{
+		width: 120px;
+	}
+</style>
+</head>
+<body>
+	<form id="form1" runat="server">
+		<table class="style1">
+			<tr>
+				<td colspan="5">
+					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+					&nbsp;
+					APPLICATION FORM
+				</td>
+			</tr>
+			<tr>
+				<td colspan="5">
+					
+					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+					&nbsp;&nbsp;&nbsp;&nbsp;
+					(ADVERTISMENT NO. R.S.M.M/CO/PERS/114/2010)					
+				
+				</td>
+			</tr>
+			<tr>
+				<td colspan="2">
+					REGISTRATION NUMBER
+				</td>
+				<td colspan="3">
+					<asp:TextBox ID="TextBox76" runat="server" ReadOnly="True"></asp:TextBox></asp:TextBox>
+				</td>
+			</tr>
+			<tr>
+				<td colspan="2">
+					1. NAME OF POST APPLIED
+				</td>
+				<td colspan="3">
+					<asp:TextBox ID="TextBox1" runat="server"></asp:TextBox>
+				</td>
+			</tr>
+			<tr>
+				<td colspan="2">
+					2.NAME(in full)
+				</td>
+				<td colspan="3">
+					<asp:TextBox ID="TextBox2" runat="server"></asp:TextBox>
+				</td>
+			</tr>
+			<tr>
+				<td colspan="2">
+					3. FATHER&#39;S NAME</td>
+				<td colspan="3" style="margin-left: 40px">
+					<asp:TextBox ID="TextBox3" runat="server"></asp:TextBox>
+				</td>
+			</tr>
+			<tr>
+				<td colspan="2">
+					4. PERMANENT ADDRESSS</td>
+				<td colspan="3">
+					<asp:TextBox ID="TextBox10" runat="server"></asp:TextBox>
+				</td>	
+			</tr>
+			<tr>
+				<td colspan="2">
+					<asp:RadioButton ID="RadioButton1" runat="server"AutoPostBack="True" GroupName="A" Text="MARRIED" oncheckedchanged="RadioButton1_CheckedChanged" />
+				</td>
+				<td colspan="3">
+					<asp:RadioButton ID="RadioButton2" runat="server" AutoPostBack="True" GroupName="A" Text="UNMARRIED" />
+				</td>
+			</tr>
+			<tr>
+				<td colspan="2">
+					6. NAME OF HUSBAND /WIFE</td>
+				<td colspan="3">
+					<asp:TextBox ID="TextBox6" runat="server"></asp:TextBox>
+				</td>
+			</tr>
+			<tr>
+				<td colspan="2">
+					7.NO OF CHILDREN</td>
+				<td colspan="3">
+					<asp:TextBox ID="TextBox7" runat="server"></asp:TextBox>
+				</td>
+			</tr>
+			<tr>
+				<td colspan="2">
+					8. TELEPHONE NO.</td>
+				<td colspan="3">
+					<asp:TextBox ID="TextBox8" runt="server"></asp:TextBox>
+				</td>
+			</tr>
+			<tr>
+				<td colspan="2">
+					10. DATE OF BIRTH</td>
+				<td colspan="3">
+					<asp:TextBox ID="TextBox9" runat="server"></asp:TextBox>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<asp:RadioButton ID="RadioButton3" runat="server" AutoPostBack="True" GroupName="B" oncheckedchanged="RadioButton3_ChekedChanged" Text="S.T" />
+				</td>
+				<td colspan="2">
+					<asp:RadioButton ID="RadioButton4" runat="server" AutoPostBack="True" GroupName="B" Text="S.C" />
+				</td>
+				<td>
+					<asp;RadioButton Id="RadioButton5" runaat="server" AutoPostBack="True" GroupName="B" Text="O.B.C" oncheckedchanged="RadioButton5_CheckedChanged" />
+				</td>
+				<td>
+					<asp:RadioButton ID="RadioButton6" runat="server" Text="GENERAL" />
+				</td>	
+			</tr>
+			<tr>
+				<td colspan="5">
+					13.EDUCATIONAL QUALIFICATION&nbsp; :*</td>
+			</tr>
+			<tr>
+				<td colspan="2">
+					&nbsp;</td>
+				<td colspan="3">
+					&nbsp;</td>
+			</tr>	
+		</table>
+		<div>
+			
+			<table bgcolor="White" class="style2" frame="border" border="3">
+				<tr>
+					<td>
+						EXAM PASSED</td>
+					<td>
+						YEAR</td>
+					<td>
+						DIVISION</td>
+					<td>
+						% OF MARKS</td>
+					<td class="style4">
+						BOARD / UNIVERSITY</td>
+				</tr>
+				<tr>
+					<td style="margin-left: 40px">
+						10 -STANDAR</td>
+					<td>
+						<asp:TextBox ID="TextBox12" runat="server"></asp:TextBox>
+					</td>
+					<td>
+						<asp:TextBox ID="TextBox13" runat="server"></asp:TextBox>
+					</td>
+					<td>
+						<asp:TextBox ID="TextBox14" runat="server"></asp:TextBox>
+					</td>
+					<td class="style4">
+						<asp:TextBox ID="TextBox15" runat="server"></asp:TextBox>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						12 -STANDARD</td>
+					<td>
+						<asp:TextBox ID="TextBox17" runat="server"></asp:TextBox>
+					</td>
+					<td>
+						<asp:TextBox ID="TextBox18" runat="server"></asp:TextBox>
+					</td>
+					<td>
+						<asp:TextBox ID="TextBox19" runat="server"></asp:TextBox>
+					</td>
+					<td bgcolor="White" class="style4">
+						<asp:TextBox ID="TextBox20" runat="server"></asp:TextBox>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						GRADUATION</td>
+					<td>
+						<asp:TextBox ID="TextBox22" runat="server"></asp:TextBox>
+					</td>
+					<td>
+						<asp:TextBox ID="TextBox23" runat="server"></asp:TextBox>
+					</td>
+					<td>
+						<asp:TextBox ID="TextBox24" runat="server"></asp:TextBox>
+					</td>
+					<td class="style4">
+						<asp:TextBox ID="TextBox25" runat="server"></asp:TextBox>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						POST GRADUATION</td>
+					<td>
+						<asp:TextBox ID="TextBox27" runat="server"></asp:TextBox>
+					</td>
+					<td>
+						<asp:TextBox ID="TextBox28" runat="server"></asp:TextBox>
+					</td>
+					<td>
+						<asp:TextBox ID="TextBox29" runat="server"></asp:TextBox>
+					</td>
+					<td class="style4">
+						<asp:TextBox ID="TextBox30" runat="server"></asp:TextBox>
+					</td>	
+				</tr>
+				<tr>
+					<td>
+						CERT COURSE</td>
+					<td>
+						<asp:TextBox ID="TextBox32" runat="server"></asp:TextBox>
+					</td>
+					<td>
+						<asp:TextBox ID="TextBox33" runat="server"></asp:TextBox>
+					</td>
+					<td>
+						<asp:TextBox ID="TextBox34" runat="server"></asp:TextBox>
+					</td>
+					<td class="style4">
+						<asp:TextBox ID="TextBox35" runat="server"></asp:TextBox>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						ADDITIONAL</td>
+					<td>
+						<asp:TextBox ID="TextBox37" runat="server"></asp:TextBox>
+					</td>
+					<td>
+						<asp:TextBox ID="TextBox38" runat="server"></asp:TextBox>
+					</td>
+					<td>
+						<asp:TextBox ID="TextBox39" runat="server"></asp:TextBox>		
+					</td>
+					<td colspan="style4">
+						<asp:TextBox ID="TextBox40" runat="server"></asp:TextBox>
+					</td>
+
+				</tr>				
+			</table>
+		</div>
+		<table class="style1" border="3">
+			<tr>
+				<td class="style3" colspan="5">
+					&nbsp; TECHNICAL QUALIFICATION :*
+				</td>
+			</tr>
+		</table>
+		
+	</div>
+	<table class="style1" border="3">
+		<tr>
+			<td class="style3" colspan="5">
+				&nbsp; TECHNICAL QUALIFICATION :*&nbsp;</td>
+		</tr>
+		<tr>
+			<td>
+				EXAM PASSED</td>
+			<td>
+				YEAR</td>
+			<td>
+				DIVISION</td>
+			<td>
+				% OF MARKS
+			</td>
+			<td>
+				BOARD/UNIVERSTY</td>
+		</tr>
+		<tr>
+			<td>
+				<asp:TextBox ID="TextBox41" runat="server"></asp:TextBox>
+			</td>
+			<td>
+				<asp:TextBox ID="TextBox42" runat="server"></asp:TextBox>
+			</td>
+			<td>
+				<asp:TextBox ID="TextBox43" runat="server"></asp:TextBox>
+			</td>
+			<td>
+				<asp:TextBox ID="TextBox44" runat="server"></asp:TextBox>
+			</td>
+			<td>
+				<asp:TextBox ID="TextBox45" runat="server"></asp:TextBox>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<asp:TextBox ID="TextBox46" runat="server"></asp:TextBox>
+			</td>
+			<td>
+				<asp:TextBox ID="TextBox47" runat="server"></asp:TextBox>
+			</td>
+			<td>
+				<asp:TextBox ID="TextBox48" runat="server"></asp:TextBox>
+			</td>
+			<td>
+				<asp:TextBox ID="TextBox49" runat="server"></asp:TextBox>
+			</td>
+			<td>
+				<asp:TextBox ID="TextBox50" runat="server"></asp:TextBox>
+			</td>
+		</tr>
+	</table>
+	<table class="style1" border="3">
+		<tr>
+			<td colspan="6">
+				14. EXPERIENCE ( if any)**</td>						
+		</tr>
+		<tr>
+			<td class="style6">
+				SNO.</td>			
+			<td>
+				POST HELD
+			</td>
+			<td>
+				SALARY</td>
+			<td>
+				PERIOD</td>
+			<td>
+				EMPLOYEE ADDRESS</td>
+			<td>
+				REASON FOR LEAVING</td>			
+		</tr>
+		<tr>
+			<td class="style6">
+				<asp:TextBox ID="TextBox11" runat="server"></asp:TextBox>
+			</td>
+			<td>
+				<asp:TextBox ID="TextBox51" runat="server"></asp:TextBox>
+			</td>
+			<td>
+				<asp:TextBox ID="TextBox52" runat="server"></asp:TextBox>
+			</td>
+			<td>
+				<asp:TextBox ID="TextBox53" runat="server"></asp:TextBox>
+			</td>
+			<td>
+				<asp:TextBox ID="TextBox54" runat="server"></asp:TextBox>
+			</td>
+			<td>
+				<asp:TextBox ID="TextBox55" runat="server"></asp:TextBox>
+			</td>
+		</tr>
+		<tr>
+			<td class="style6">
+				<asp:TextBox ID="TextBox56" runat="server"></asp:TextBox>
+			</td>
+			<td>
+				<asp:TextBox ID="TextBox57" runat="server"></asp:TextBox>
+			</td>
+			<td>
+				<asp:TextBox ID="TextBox58" runat="server"></asp:TextBox>
+            </td>
+            <td>
+            	<asp:TextBox ID="TextBox59" runat="server"></asp:TextBox>
+            </td>
+            <td>
+            	<asp:TextBox ID="TextBox60" runat="server"></asp:TextBox>
+            </td>
+            <td>
+            	<asp:TextBox ID="TextBox61" runat="server"></asp:TextBox>
+            </td>			
+		</tr>
+		<tr>
+			<td style="font-weight: 700" class="style6">
+				<asp:TextBox ID="TextBox62" runat="server"></asp:TextBox>
+			</td>
+			<td>
+				<asp:TextBox ID="TextBox63" runat="server"></asp:TextBox>
+			</td>
+			<td>
+				<asp:TextBox ID="TextBox64" runat="server"></asp:TextBox>
+			</td>
+			<td>
+				<asp:TextBox ID="TextBox65" runat="server"></asp:TextBox>
+			</td>
+			<td>
+				<asp:TextBox ID="TextBox66" runat="server"></asp:TextBox>
+			</td>
+			<td>
+				<asp:TextBOx ID="TextBox67" runat="server"></asp:TextBOx>
+			</td>
+		</tr>		
+	    </table>
+	<table class="style5">
+		<tr>
+			<td colspan="4">
+				&nbsp;BANK DETAILS..*&nbsp;</td>
+		</tr>
+		<tr>
+			<td>
+				BANK NAME</td>
+			<td>
+				DATE</td>
+			<td>
+				AMOUNT</td>
+			<td>
+				PAYMENT(DD/CHEQUE/CASH)</td>			
+		</tr>
+		<tr>
+			<td style="margin-left: 40px">
+				<asp:TextBox ID="TextBox68" runat="server"></asp:TextBox>
+			</td>
+			<td>
+				<asp:TextBox ID="TextBox69" runat="server"></asp:TextBox>
+			</td>
+			<td>
+				<asp:TextBox ID="TextBox70" runat="server"></asp:TextBox>
+			</td>
+			<td>
+				<asp:TextB0x ID="TectBox71" runat="server"></asp:TextB0x>
+			</td>	
+		</tr>
+		<tr>
+			<td>
+				<asp:TextBox ID="TextBox72" runat="server"></asp:TextBox>
+			</td>
+			<td>
+				<asp:TextBox ID="TextBox73" runat="server"></asp:TextBox>
+			</td>
+			<td>
+				<asp:TextBox ID="TextBox74" runat="server"></asp:TextBox>
+			</td>
+			<td>
+				<asp:TextBox ID="TextBox75" runat="server"></asp:TextBox>
+			</td>
+		</tr>
+	</table>
+	<p>
+		<asp:CheckBox ID="CheckBox1" runat="server" Text="I AGREE THE TERMS AND CONDITION" />
+		<asp:Button ID ="Button2" runat="server" onclick="Button2_Click" Text="update" />
+	</p>
+	<p>
+		<asp:Button ID="Button1" runat="server" onclick="Button1_Click" Text="SUBMITT" Width="172px" />
+	</p>    		
+	</form>
+</body>
+</html>
